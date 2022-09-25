@@ -186,10 +186,10 @@ footer p {
     text-decoration: none;
 }
 
-@media (max-width:800px){
+@media (max-width:1024px){
     .imagenes{
         width: 100%;
-        height: 400px;
+        height: 480px;
     }
     .item{
         flex-direction: column;
@@ -264,4 +264,73 @@ footer p {
         display: flex;
     }
 
+}
+@media (min-width:2400px){
+    .opciones a{
+        max-width: 500px;
+        max-height: 400px;
+    }
+    .logo {
+        width: 350px;
+        height: 180px;
+    }
+    .menu{
+        font-size: 36px;
+    }
+    .black{
+        height: 250px;
+    }
+    .logoimg{
+    width: 550px;
+    height: 440px;
+    margin-top: -265px;
+    }
+    h2{
+        font-size: 80px;
+    }
+    .descripcion{
+        font-size: 65px;
+        width: 2300px;
+    }
+    .imagenes {
+        margin-top: 20px;
+        width: 100%;
+        height: 1300px;
+    }
+    .footer-principal {
+        display: flex;
+        justify-content: space-around;
+        font-size: 40px;
+    }
+    .footer-img {
+        width: 60px;
+        height: 60px;
+    }
+    .footer-secundario {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .item_left img {
+        width: 650px;
+        height: 550px;
+        border-style: groove;
+        border-color: black;
+    }
+    .item_left .nombre{
+        font-size: 65px;
+    }
+    .item_left p{
+        font-size: 40px;
+    }
+    .item_left .precio{
+        font-size: 65px;
+    }
+    .item_rigth video{
+        width: 100%;
+        width: 1300px;
+        margin-top: 15px;
+        height: auto;
+    }
 }
