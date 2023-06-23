@@ -186,6 +186,9 @@ footer p {
     text-decoration: none;
 }
 
+
+/* Modo Responsive */
+
 @media (max-width:1024px){
     .imagenes{
         width: 100%;
@@ -201,6 +204,14 @@ footer p {
     .menu a{
         font-size: 12px;
     }
+    .black{
+        height: 105px;
+    }
+   .logoimg{
+    margin-top: -130px;
+    width: 250px;
+    height: 200px;
+   }
 }
 @media (max-width:500px){
     .descripcion{
@@ -334,3 +345,5 @@ footer p {
         height: auto;
     }
 }
+
+/* Termina Modo Responsive */
